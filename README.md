@@ -30,10 +30,7 @@ Notions en :
 
 ### 📂 Projets
 
-| Projet | Description | Langages |
-|--------|-------------|----------|
-| **[Coursework](https://github.com/EnzoBuchaillat/Coursework)** | Projets de première année de BUT Informatique | C, Java, SQL |
-| **[Viking Transport](https://github.com/EnzoBuchaillat/VikingTransport-sae-2.4-5-6)** | Site web réalisé pour un client pendant les SAÉ 2.4 à 2.6 | PHP, SQL |
+🚧 Bientôt : je prépare mes premiers projets perso.
 
 ### 📫 Me contacter
 
