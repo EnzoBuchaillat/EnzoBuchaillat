@@ -1,37 +1,41 @@
-# Hey, moi c'est Enzo
+# Hey, moi c'est Enzo 👋
 
-Web Designer freelance, fondateur de **BuchWeb**.
-
-Je crée des landing pages modernes et sur-mesure pour les coachs, consultants et startups qui veulent convertir leurs visiteurs en clients.
+Étudiant en BUT Informatique à l'IUT de Caen, et fondateur de **[Dropresell](https://dropresell.com)**.
 
 ---
 
-### Ce que je fais
+### 🚀 En ce moment
 
-- **Landing pages** pensées conversion — pas juste du joli
-- **Design premium** sur Figma, intégration sur Webflow
-- Approche orientée résultats : chaque page a un objectif clair
+**Dropresell** est un outil qui transforme les photos de vêtements des vendeurs Vinted en photos pro grâce à l'IA.
 
-### Stack
+Je l'ai construit en m'appuyant sur l'IA (Claude) pour le code. De mon côté, je m'occupe du produit, du design, des tests et du lancement.
 
-![Webflow](https://img.shields.io/badge/Webflow-4353FF?style=flat-square&logo=webflow&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+### 🛠️ Compétences
+
+J'ai les bases dans :
+
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-### Portfolio
+Notions en :
 
-Jetez un oeil a mes realisations : **[Portfolio](https://github.com/ORZEX144/Portfolio)**
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
-| Projet | Type | Direction artistique |
-|--------|------|---------------------|
-| Coach Business | Landing page | Minimaliste, fond blanc, typo massive |
-| Consultant SEO | Site vitrine | Dark mode, data-driven, vert emeraude |
-| Formatrice en ligne | Page de vente | Wellness, organique, tons chauds |
-| SaaS Flowly | Landing page | Futuriste, glassmorphism, violet/cyan |
+### 📂 Projets
 
-### Me contacter
+| Projet | Description | Langages |
+|--------|-------------|----------|
+| **[Coursework](https://github.com/EnzoBuchaillat/Coursework)** | Projets de première année de BUT Informatique | C, Java, SQL |
+| **[Viking Transport](https://github.com/EnzoBuchaillat/VikingTransport-sae-2.4-5-6)** | Site web réalisé pour un client pendant les SAÉ 2.4 à 2.6 | PHP, SQL |
 
-- **Site** : [buchweb.fr](https://buchweb.fr)
-- **Email** : contact@buchweb.fr
+### 📫 Me contacter
+
+- **Site** : [dropresell.com](https://dropresell.com)
+- **Email** : [buchaillatenzo@gmail.com](mailto:buchaillatenzo@gmail.com)
