@@ -39,21 +39,31 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
 
 ## Compétences
 
-J'ai les bases en :
+**J'ai les bases en**
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+<p>
+  <img alt="C, Java, JavaScript, HTML, CSS" src="https://skillicons.dev/icons?i=c,java,js,html,css" height="48" />
+  <img alt="SQL" src="./assets/sql.svg" height="48" />
+  <img alt="Bash, Linux, Git, GitHub" src="https://skillicons.dev/icons?i=bash,linux,git,github" height="48" />
+</p>
 
-Des notions en :
+**Des notions en**
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+<p>
+  <img alt="PHP" src="https://skillicons.dev/icons?i=php" height="48" />
+</p>
+
+**Mes outils**
+
+<p>
+  <img alt="VS Code, IntelliJ IDEA" src="https://skillicons.dev/icons?i=vscode,idea" height="48" />
+</p>
+
+### Langages les plus utilisés
+
+<img alt="Langages les plus utilisés dans mes dépôts publics" src="./assets/langages.svg" width="480" />
+
+<sub>Calculé chaque semaine sur mes dépôts publics (hors forks), d'après le volume de code par langage.</sub>
 
 ## Me contacter
 
