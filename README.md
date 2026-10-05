@@ -22,6 +22,7 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
 
 - **La sécurité des applications web** : authentification, contrôle d'accès, injections, gestion des secrets (OWASP Top 10)
 - **Linux et la ligne de commande** : Bash, scripts, administration système
+- **Les réseaux** : comprendre comment les machines communiquent, la base pour savoir comment on attaque et défend un système
 - **Le fonctionnement bas niveau** : la programmation en C, la mémoire, ce qui se passe sous le capot
 
 ## Projets
@@ -46,6 +47,8 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
   <img alt="SQL" src="./assets/sql.svg" height="48" />
   <img alt="Bash, Linux, Git, GitHub" src="https://skillicons.dev/icons?i=bash,linux,git,github" height="48" />
 </p>
+
+**Réseau** : modèle OSI, TCP/IP, adressage IP, configuration et simulation de réseaux sur **Cisco Packet Tracer**
 
 **Des notions en**
 
