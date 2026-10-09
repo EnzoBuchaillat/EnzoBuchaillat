@@ -36,6 +36,7 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
 
 ### Projets perso
 
+- **[MacTidy](https://github.com/EnzoBuchaillat/MacTidy)** *(en cours)* : un utilitaire en ligne de commande, en Java, qui repère dans un dossier les fichiers lourds et inutilisés depuis longtemps pour aider à faire le tri sur son Mac. Je le code moi-même, étape par étape, pour progresser en Java en dehors des cours (lecture du système de fichiers, saisies utilisateur, gestion des erreurs).
 - **[Dropresell](https://dropresell.com)** : une application web pour les vendeurs Vinted, construite avec l'aide de l'IA. Elle m'a surtout appris à mener un projet de bout en bout, de l'idée jusqu'à sa mise en ligne.
 
 ## Compétences
