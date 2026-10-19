@@ -19,6 +19,6 @@
     <rect x="40" y="104" width="400" height="12" rx="6" fill="#2a3550"/>
     <rect x="40" y="104" width="80" height="12" rx="6" fill="url(#fill)"/>
     <rect x="119" y="104" width="2" height="12" fill="#0f1626" opacity="0.9"/><rect x="179" y="104" width="2" height="12" fill="#0f1626" opacity="0.9"/><rect x="279" y="104" width="2" height="12" fill="#0f1626" opacity="0.9"/><rect x="399" y="104" width="2" height="12" fill="#0f1626" opacity="0.9"/>
-    <text x="40" y="146" font-size="13" fill="#9aa6c1">13 salles terminées  ·  2 badges  ·  ligue Argent</text>
+    <text x="40" y="146" font-size="13" fill="#9aa6c1">13 salles terminées  ·  2 badges  ·  ligue Bronze</text>
   </g>
 </svg>
