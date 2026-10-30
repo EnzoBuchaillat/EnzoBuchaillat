@@ -54,7 +54,7 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
 **Des notions en**
 
 <p>
-  <img alt="PHP" src="https://skillicons.dev/icons?i=php" height="48" />
+  <img alt="PHP, C#, Docker" src="https://skillicons.dev/icons?i=php,cs,docker" height="48" />
 </p>
 
 **Mes outils**
