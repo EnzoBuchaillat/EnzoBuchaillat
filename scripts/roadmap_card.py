@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Génère assets/roadmap.svg : ma feuille de route en cybersécurité.
+"""Génère assets/roadmap.svg : ma feuille de route de développeur.
 
 Pour la mettre à jour, change le statut d'une étape dans STEPS
 ("acquis", "en cours" ou "à venir"), puis lance : python3 scripts/roadmap_card.py
@@ -11,9 +11,9 @@ OUT = Path(__file__).resolve().parent.parent / "assets" / "roadmap.svg"
 
 # (titre, sous-titre, icône, statut)
 STEPS = [
-    ("Linux & Bash", "Ligne de commande, scripts", "terminal", "acquis"),
-    ("Réseau", "OSI, TCP/IP, Packet Tracer", "network", "acquis"),
-    ("Sécurité web", "OWASP Top 10, TryHackMe", "shield", "en cours"),
+    ("Fondamentaux", "C, Java, algorithmique", "terminal", "acquis"),
+    ("Web & BDD", "HTML, CSS, JS, SQL", "database", "acquis"),
+    ("Projets perso", "MacTidy en Java", "code", "en cours"),
     ("Stage", "À partir d'avril 2027", "briefcase", "à venir"),
     ("Alternance", "En 3e année de BUT", "cap", "à venir"),
 ]
@@ -28,6 +28,9 @@ R = 30  # rayon des hexagones
 # Icônes au trait, centrées sur (0, 0), environ 22 px de côté.
 ICONS = {
     "terminal": '<path d="M-9 -7 L-2 0 L-9 7"/><path d="M1 8 H10"/>',
+    "code": '<path d="M-3.5 -5.5L-9 0L-3.5 5.5M3.5 -5.5L9 0L3.5 5.5M1.6 -8.5L-1.6 8.5"/>',
+    "database": '<ellipse cx="0" cy="-7" rx="8.5" ry="3.2"/>'
+                '<path d="M-8.5 -7V7C-8.5 8.8 -4.7 10.2 0 10.2S8.5 8.8 8.5 7V-7M-8.5 0C-8.5 1.8 -4.7 3.2 0 3.2S8.5 1.8 8.5 0"/>',
     "network": '<circle cx="0" cy="-8" r="3.2"/><circle cx="-9" cy="7" r="3.2"/>'
                '<circle cx="9" cy="7" r="3.2"/><path d="M-1.6 -5 L-7.4 4.2 M1.6 -5 L7.4 4.2 M-5.8 7 H5.8"/>',
     "shield": '<path d="M0 -11 L9 -7 V0 C9 6 5 9.5 0 11.5 C-5 9.5 -9 6 -9 0 V-7 Z"/><path d="M-4 0 L-1 3.2 L4.5 -3"/>',
@@ -121,7 +124,7 @@ def card() -> str:
 
     nodes = [node(i, xs[i], ys[i], *STEPS[i]) for i in range(len(STEPS))]
 
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Feuille de route en cybersécurité : {done} étapes acquises sur {len(STEPS)}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Feuille de route de développeur : {done} étapes acquises sur {len(STEPS)}">
   <defs>
     <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="{CYAN}"/><stop offset="1" stop-color="{CYAN_DARK}"/>
@@ -136,7 +139,7 @@ def card() -> str:
   </defs>
   <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="18" fill="{BG}" stroke="{BORDER}"/>
   <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="18" fill="url(#grid)"/>
-  <text x="40" y="54" font-family="{MONO}" font-size="13" letter-spacing="3" fill="{CYAN}">ROADMAP // CYBERSÉCURITÉ</text>
+  <text x="40" y="54" font-family="{MONO}" font-size="13" letter-spacing="3" fill="{CYAN}">ROADMAP // DÉVELOPPEUR</text>
   <text x="{W - 40}" y="54" text-anchor="end" font-family="{MONO}" font-size="12.5" fill="{MUTED}">{done} / {len(STEPS)} étapes acquises</text>
   {chr(10).join("  " + t for t in traces).strip()}
   {chr(10).join("  " + v for v in vias).strip()}

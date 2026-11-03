@@ -1,31 +1,33 @@
-<img alt="Enzo Buchaillat, étudiant en BUT Informatique attiré par la cybersécurité" src="https://capsule-render.vercel.app/api?type=waving&height=210&section=header&color=0:0d1117,55:005f6b,100:00C8DC&text=Enzo%20Buchaillat&fontColor=ffffff&fontSize=48&fontAlignY=36&animation=fadeIn&desc=BUT%20Informatique%20%C2%B7%20Cybers%C3%A9curit%C3%A9&descSize=18&descAlignY=58" width="100%" />
+<img alt="Enzo Buchaillat, développeur en BUT Informatique" src="https://capsule-render.vercel.app/api?type=waving&height=210&section=header&color=0:0d1117,55:005f6b,100:00C8DC&text=Enzo%20Buchaillat&fontColor=ffffff&fontSize=48&fontAlignY=36&animation=fadeIn&desc=D%C3%A9veloppeur%20%C2%B7%20BUT%20Informatique&descSize=18&descAlignY=58" width="100%" />
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/enzo-buchaillat-9472513a1/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:buchaillatenzo@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://tryhackme.com/p/ORZEX"><img alt="TryHackMe" src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/enzo-buchaillat-9472513a1/"><img alt="LinkedIn" src="./assets/buttons/linkedin.svg" height="44" /></a>
+  <a href="mailto:buchaillatenzo@gmail.com"><img alt="E-mail" src="./assets/buttons/email.svg" height="44" /></a>
+  <a href="https://tryhackme.com/p/ORZEX"><img alt="TryHackMe" src="./assets/buttons/tryhackme.svg" height="44" /></a>
 </p>
 
 ## À propos
 
-Je suis en 2<sup>e</sup> année de BUT Informatique à l'IUT de Caen. J'aime comprendre comment fonctionnent les systèmes de l'intérieur, et surtout comment on les attaque et comment on les protège : la **cybersécurité** est le domaine qui m'attire le plus. Je m'y forme en parallèle de mes cours, notamment sur [TryHackMe](https://tryhackme.com/p/ORZEX).
+Je suis en 2<sup>e</sup> année de BUT Informatique à l'IUT de Caen, et je fais surtout du **développement** : Java, C, web et bases de données en cours, et des projets perso pour aller plus loin que ce qu'on voit en classe.
 
-En dehors des cours, je construis aussi des projets perso pour pratiquer et apprendre des choses que je ne vois pas encore en classe.
+À côté, la **cybersécurité** m'intéresse beaucoup : comprendre comment on attaque un système et comment on le protège. Je m'y forme sur [TryHackMe](https://tryhackme.com/p/ORZEX).
 
 ## Feuille de route
 
 <p align="center">
-  <img alt="Feuille de route en cybersécurité : Linux et Bash acquis, réseau acquis, sécurité web en cours, puis stage en avril 2027 et alternance en 3e année de BUT" src="./assets/roadmap.svg" width="100%" />
+  <img alt="Feuille de route de développeur : fondamentaux acquis, web et bases de données acquis, projets perso en cours, puis stage en avril 2027 et alternance en 3e année de BUT" src="./assets/roadmap.svg" width="100%" />
 </p>
 
 ## Domaines
 
 | Domaine | Où j'en suis | Ce que je veux apprendre |
 | --- | --- | --- |
-| **Sécurité web** | Je m'y forme sur TryHackMe | Authentification, contrôle d'accès, injections, gestion des secrets (OWASP Top 10) |
-| **Linux** | Les bases : Bash, scripts, ligne de commande | L'administration système |
-| **Réseau** | Modèle OSI, TCP/IP, adressage IP, simulations sur Cisco Packet Tracer | Comment on attaque et on défend un réseau |
-| **Bas niveau** | La programmation en C vue en cours | La mémoire, ce qui se passe sous le capot |
+| **Java** | Vu en cours, et MacTidy en projet perso | Le développement back-end avec Spring |
+| **Web** | HTML, CSS et JavaScript natifs, PHP en projet d'équipe | Un framework front moderne |
+| **Bases de données** | SQL, Oracle en projet d'équipe | Concevoir un schéma propre de bout en bout |
+| **C** | La programmation en C vue en cours | La mémoire, ce qui se passe sous le capot |
+| **Linux et réseau** | Bash, scripts, modèle OSI, TCP/IP, Packet Tracer | L'administration système |
+| **Cybersécurité** *(centre d'intérêt)* | Je m'y forme sur TryHackMe | Les failles web classiques (OWASP Top 10) et comment s'en protéger |
 
 ## En ce moment
 
@@ -64,9 +66,9 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
 </p>
 
 <p align="center">
-  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-  <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
-  <img alt="Cisco Packet Tracer" src="https://img.shields.io/badge/Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
+  <img alt="VS Code" src="./assets/buttons/vscode.svg" height="44" />
+  <img alt="IntelliJ IDEA" src="./assets/buttons/intellij.svg" height="44" />
+  <img alt="Cisco Packet Tracer" src="./assets/buttons/packet-tracer.svg" height="44" />
 </p>
 
 ## Activité
@@ -82,8 +84,8 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
 ## En dehors du code
 
 <p align="center">
-  <img alt="Entrepreneuriat" src="https://img.shields.io/badge/Entrepreneuriat-00C8DC?style=for-the-badge" />
-  <img alt="Finance" src="https://img.shields.io/badge/Finance-00C8DC?style=for-the-badge" />
+  <img alt="Entrepreneuriat" src="./assets/buttons/entrepreneuriat.svg" height="44" />
+  <img alt="Finance" src="./assets/buttons/finance.svg" height="44" />
 </p>
 
 ## Me contacter
@@ -91,9 +93,9 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
 Une question, un projet ou une opportunité ? Écris-moi ou retrouve-moi sur LinkedIn.
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/enzo-buchaillat-9472513a1/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:buchaillatenzo@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://tryhackme.com/p/ORZEX"><img alt="TryHackMe" src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/enzo-buchaillat-9472513a1/"><img alt="LinkedIn" src="./assets/buttons/linkedin.svg" height="44" /></a>
+  <a href="mailto:buchaillatenzo@gmail.com"><img alt="E-mail" src="./assets/buttons/email.svg" height="44" /></a>
+  <a href="https://tryhackme.com/p/ORZEX"><img alt="TryHackMe" src="./assets/buttons/tryhackme.svg" height="44" /></a>
 </p>
 
 <img alt="" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00C8DC,45:005f6b,100:0d1117" width="100%" />
