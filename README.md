@@ -68,14 +68,6 @@ En dehors des cours, je construis aussi des projets perso pour pratiquer et appr
 
 <sub>Calculé chaque semaine sur mes dépôts publics (hors forks), d'après le volume de code par langage.</sub>
 
-### Mes contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EnzoBuchaillat/EnzoBuchaillat/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EnzoBuchaillat/EnzoBuchaillat/output/snake.svg" />
-  <img alt="Un serpent qui mange le calendrier de mes contributions GitHub" src="https://raw.githubusercontent.com/EnzoBuchaillat/EnzoBuchaillat/output/snake.svg" />
-</picture>
-
 ## Me contacter
 
 Une question, un projet ou une opportunité ? Écris-moi ou retrouve-moi sur LinkedIn.
