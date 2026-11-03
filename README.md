@@ -14,8 +14,6 @@
 
 Je suis en 2<sup>e</sup> année de BUT Informatique à l'IUT de Caen. J'aime comprendre comment fonctionnent les systèmes de l'intérieur, et surtout comment on les attaque et comment on les protège : la **cybersécurité** est le domaine qui m'attire le plus. Je m'y forme en parallèle de mes cours, notamment sur [TryHackMe](https://tryhackme.com/p/ORZEX).
 
-<a href="https://tryhackme.com/p/ORZEX"><img alt="Mon profil TryHackMe : capability score et progression" src="./assets/tryhackme.svg" width="480" /></a>
-
 En dehors des cours, je construis aussi des projets perso pour pratiquer et apprendre des choses que je ne vois pas encore en classe.
 
 ## Ce qui m'intéresse
