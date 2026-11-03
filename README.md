@@ -74,7 +74,11 @@ Je suis en 2<sup>e</sup> année de BUT Informatique à l'IUT de Caen, et je fais
 ## Activité
 
 <p align="center">
-  <img alt="Mon activité GitHub des 12 derniers mois et les langages de mes dépôts publics" src="./assets/activite.svg" width="100%" />
+  <img alt="Mon activité GitHub en graphique de bourse : une bougie par semaine, le cours étant mes contributions sur 7 jours glissants" src="./assets/trading.svg" width="100%" />
+</p>
+
+<p align="center">
+  <img alt="Mes chiffres GitHub des 12 derniers mois et les langages de mes dépôts publics" src="./assets/activite.svg" width="100%" />
 </p>
 
 ## En dehors du code

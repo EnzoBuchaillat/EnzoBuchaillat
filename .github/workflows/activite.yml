@@ -1,4 +1,4 @@
-# Met à jour assets/activite.svg (contributions des 12 derniers mois + langages) chaque nuit, ou à la demande.
+# Met à jour assets/activite.svg (chiffres + langages) et assets/trading.svg (graphique de bourse) chaque nuit, ou à la demande.
 name: Carte d'activité
 
 on:
@@ -20,13 +20,15 @@ jobs:
       - name: Générer la carte
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/activity_card.py EnzoBuchaillat
+        run: |
+          python scripts/activity_card.py EnzoBuchaillat
+          python scripts/trading_card.py EnzoBuchaillat
       - name: Pousser si elle a changé
         run: |
-          if [ -n "$(git status --porcelain -- assets/activite.svg)" ]; then
+          if [ -n "$(git status --porcelain -- assets/activite.svg assets/trading.svg)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-            git add assets/activite.svg
+            git add assets/activite.svg assets/trading.svg
             git commit -m "chore: mettre à jour la carte d'activité"
             git push
           fi
