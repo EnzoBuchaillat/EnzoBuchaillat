@@ -1,8 +1,4 @@
-<h1 align="center">Enzo Buchaillat</h1>
-
-<p align="center">
-  <img alt="Étudiant en BUT Informatique · Attiré par la cybersécurité · En recherche de stage pour avril 2027" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=2F81F7&center=true&vCenter=true&width=600&height=40&lines=%C3%89tudiant+en+BUT+Informatique;Attir%C3%A9+par+la+cybers%C3%A9curit%C3%A9;En+recherche+de+stage+pour+avril+2027" />
-</p>
+<img alt="Enzo Buchaillat, étudiant en BUT Informatique attiré par la cybersécurité" src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&color=0:0d1117,100:2F81F7&text=Enzo%20Buchaillat&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=BUT%20Informatique%20%C2%B7%20Cybers%C3%A9curit%C3%A9&descSize=18&descAlignY=58" width="100%" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/enzo-buchaillat-9472513a1/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -11,15 +7,6 @@
 </p>
 
 ## À propos
-
-```console
-enzo@caen:~$ whoami
-Étudiant en 2e année de BUT Informatique à l'IUT de Caen
-enzo@caen:~$ cat objectif.txt
-Stage de 8 à 10 semaines à partir d'avril 2027, puis alternance en 3e année
-enzo@caen:~$ cat domaine.txt
-Cybersécurité : comprendre comment on attaque un système pour savoir le protéger
-```
 
 Je suis en 2<sup>e</sup> année de BUT Informatique à l'IUT de Caen. J'aime comprendre comment fonctionnent les systèmes de l'intérieur, et surtout comment on les attaque et comment on les protège : la **cybersécurité** est le domaine qui m'attire le plus. Je m'y forme en parallèle de mes cours, notamment sur [TryHackMe](https://tryhackme.com/p/ORZEX).
 
@@ -90,3 +77,5 @@ Une question, un projet ou une opportunité ? Écris-moi ou retrouve-moi sur Lin
   <a href="mailto:buchaillatenzo@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://tryhackme.com/p/ORZEX"><img alt="TryHackMe" src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
 </p>
+
+<img alt="" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0d1117,100:2F81F7" width="100%" />
