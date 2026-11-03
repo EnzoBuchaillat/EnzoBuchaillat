@@ -1,0 +1,33 @@
+# Dessine le calendrier des contributions en 3D (couleurs cyan, réglées dans .github/3d-contrib.json),
+# chaque nuit ou à la demande. L'image est écrite dans profile-3d-contrib/profile-cyan.svg.
+name: Calendrier 3D
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: [.github/workflows/calendrier-3d.yml, .github/3d-contrib.json]
+
+permissions:
+  contents: write
+
+jobs:
+  calendrier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/3d-contrib.json
+      - name: Pousser si l'image a changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/profile-cyan.svg
+          if git commit -m "chore: mettre à jour le calendrier 3D"; then
+            git push
+          fi

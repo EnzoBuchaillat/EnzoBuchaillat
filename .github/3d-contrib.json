@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-cyan.svg",
+  "backgroundColor": "#0d1117",
+  "foregroundColor": "#e6edf3",
+  "strongColor": "#00C8DC",
+  "weakColor": "#7d8590",
+  "radarColor": "#00C8DC",
+  "growingAnimation": true,
+  "contribColors": [
+    "#161b22",
+    "#003f47",
+    "#00707d",
+    "#00a0b0",
+    "#00C8DC"
+  ]
+}
