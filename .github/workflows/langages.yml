@@ -1,0 +1,32 @@
+# Met à jour assets/langages.svg (langages les plus utilisés) chaque lundi, ou à la demande.
+name: Carte des langages
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  carte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Générer la carte
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/langs_card.py EnzoBuchaillat
+      - name: Pousser si elle a changé
+        run: |
+          if [ -n "$(git status --porcelain -- assets/langages.svg)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git add assets/langages.svg
+            git commit -m "chore: mettre à jour la carte des langages"
+            git push
+          fi
