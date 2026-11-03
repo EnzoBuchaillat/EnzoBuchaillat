@@ -74,11 +74,7 @@ Je suis en 2<sup>e</sup> année de BUT Informatique à l'IUT de Caen, et je fais
 ## Activité
 
 <p align="center">
-  <img alt="Calendrier de mes contributions GitHub en 3D" src="./profile-3d-contrib/profile-cyan.svg" width="100%" />
-</p>
-
-<p align="center">
-  <img alt="Langages les plus utilisés dans mes dépôts publics" src="./assets/langages.svg" width="480" />
+  <img alt="Mon activité GitHub des 12 derniers mois et les langages de mes dépôts publics" src="./assets/activite.svg" width="100%" />
 </p>
 
 ## En dehors du code
