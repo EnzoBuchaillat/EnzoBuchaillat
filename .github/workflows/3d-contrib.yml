@@ -1,0 +1,29 @@
+# Génère chaque nuit le calendrier de contributions en 3D (aux couleurs du profil)
+# et le publie sur la branche « output », pour ne pas ajouter de commits sur master.
+name: Contributions 3D
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/3d-contrib.json
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: profile-3d-contrib
+          commit_message: "Mise à jour du calendrier 3D"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
